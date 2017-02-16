@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap with model</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+   .bg-1{
+      color: #ffffff;
+        }
+  </style>
+</head>
+<body background="blood-donation_17April2014.jpg">
+    
+<div class="container text-center bg-1">
+  <h1>Give Blood.....Save Life.!!!</h1><hr>
+  <h3>Health Benefits Of Blood Donation</h3>
+  <br><p>Health benefits of donating blood include good health, reduced risk of cancer and hemochromatosis. It helps in reducing risk of damage to liver and pancreas. Donating blood may help in improving cardiovascular health and reducing obesity.
+
+  <br><br><u><b>Anti-cancer benefits</b></u><br>
+Blood donation may also help in lowering risk of cancer. By donating blood the iron stores in the body are maintained at healthy levels. And the reduction in iron levels in the body is linked with low cancer risk.
+
+<br><br><u><b>Healthy heart and liver</b></u><br>
+Blood donation is beneficial in reducing risk of heart and liver ailments caused by iron overload in the body. Intake of iron rich diet may increase the iron levels in the body and since only limited proportions can be absorbed excess iron gets stored in heart, liver and pancreas. This in turn increases the risk of cirrhosis, liver failure, damage to pancreas, and heart abnormalities like irregular heart rhythms. Blood donation helps in maintaining the iron levels and reduces the risk of various health ailments.
+
+<br><br><u><b>Weight loss</b></u><br>
+Regular blood donation reduces the weight of the donors. This is helpful to those who are obese and are at higher risk of cardiovascular diseases and other health disorders. However, the blood donation should not be very frequent and you may consult your doctor before donating blood to avoid any health issues.
+
+<br><br><u><b>New blood cells</b></u><br>
+After donating blood, the body works to replenish the blood loss. This stimulates the production of new blood cells and in turn helps in maintaining good health.</p>
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#DonateBlood">Donor Register</button>
+</div>
+  <div class="modal dialog" id="DonateBlood" role="dialog">
+    <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Donor's Registeration</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal">
+             <div class="form-group">
+              <label class="control-label col-sm-3" for="name">Name</label>
+               <div class="col-sm-8">
+                <input type="text" class="form-control" id="name">
+               </div>
+             </div>
+             <div class="form-group">
+              <label class="control-label col-sm-3" for="adr">Address:</label>
+             <div class="col-sm-8">          
+              <textarea  class="form-control" rows="3" id="adr"></textarea>
+             </div>
+             <div class="form-group">
+              <label class="control-label col-sm-3" for="bd">Blood Group:</label>
+               <div class="col-sm-8">
+                <input type="text" class="form-control" id="bd">
+               </div>
+             </div>
+             </div>
+           </form>
+       </div>
+
+  
+       </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
